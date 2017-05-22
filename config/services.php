@@ -35,4 +35,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'github' => [
+    'client_id' => 'f157a3c2aaa4417adffb',
+    'client_secret' => '7543fe1ebbb1c7d2f347ef8606e9b6fbdaf37cfa',
+    'redirect' => 'http://127.0.0.1:8000/index.php/home',
+    ],
+
 ];
